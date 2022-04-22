@@ -4,7 +4,6 @@ public:
         int f=0;
         vector<int> v;
         int cnt=0;
-        cout << bank.size()<< endl;
         for(int i=0;i<bank.size();i++)
         {
             for(int j=0;j<bank[i].length();j++)
@@ -19,10 +18,7 @@ public:
             return 0;
         }
         int sum=0;
-        for(auto it:v)
-        {
-            cout << it << endl;
-        }
+        
         for(int i=0;i<v.size()-1;i++)
         {
             sum=sum+(v[i]*v[i+1]);
