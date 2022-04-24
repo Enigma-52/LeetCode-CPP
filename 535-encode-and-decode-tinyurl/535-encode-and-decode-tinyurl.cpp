@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    map<string,string> mp;
+    unordered_map<string,string> mp;
     string encode(string longUrl) {
         mp["enigma"]=longUrl;
         return "enigma";
