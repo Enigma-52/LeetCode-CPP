@@ -3,9 +3,9 @@ public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
         vector<int> v;
         unordered_map<int,int> mp;
-        for(int i=0;i<nums.size();i++)
+        for(auto it:nums)
         {
-            mp[nums[i]]++;
+            mp[it]++;
         }
         int n=nums.size();
         for(int i=1;i<=n;i++)
