@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool areOccurrencesEqual(string s) {
-        map<char,int> mp;
+        unordered_map<char,int> mp;
         for(int i=0;i<s.length();i++)
         {
             mp[s[i]]++;
