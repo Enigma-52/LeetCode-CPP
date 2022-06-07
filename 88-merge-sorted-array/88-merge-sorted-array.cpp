@@ -14,7 +14,7 @@ public:
             {
                 v.push_back(nums2[j]);j++;
             }
-            else if(nums1[i]==nums2[j])
+            else
             {
                 v.push_back(nums1[i]);i++;
                 v.push_back(nums2[j]);j++;
