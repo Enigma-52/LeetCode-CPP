@@ -10,14 +10,14 @@ public:
                 v.push_back(nums1[i]);i++;
                 continue;
             }
-            if(nums1[i]>nums2[j])
+            else if(nums1[i]>nums2[j])
             {
-                v.push_back(nums2[j]);j++;continue;
+                v.push_back(nums2[j]);j++;
             }
-            if(nums1[i]==nums2[j])
+            else if(nums1[i]==nums2[j])
             {
                 v.push_back(nums1[i]);i++;
-                v.push_back(nums2[j]);j++;continue;
+                v.push_back(nums2[j]);j++;
             }
         }
         while(i<m)
